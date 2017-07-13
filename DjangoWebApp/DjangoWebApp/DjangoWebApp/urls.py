@@ -7,9 +7,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 admin.autodiscover()
 
-# Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+from DjangoWebApp.myApp import views as myapp_views
 
 urlpatterns = [
     # Examples:
@@ -21,4 +19,5 @@ urlpatterns = [
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', myapp_views.hello, name = 'hello')
 ]
