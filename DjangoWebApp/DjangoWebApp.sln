@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python-Playground", "Python-Playground\Python-Playground.pyproj", "{F739CAD6-AB99-455B-8396-A37EDE6C7C41}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebApp", "DjangoWebApp\DjangoWebApp.pyproj", "{BEF6C1A4-8DC5-4EB6-9529-D2A86707B32F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F739CAD6-AB99-455B-8396-A37EDE6C7C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F739CAD6-AB99-455B-8396-A37EDE6C7C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF6C1A4-8DC5-4EB6-9529-D2A86707B32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF6C1A4-8DC5-4EB6-9529-D2A86707B32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF6C1A4-8DC5-4EB6-9529-D2A86707B32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF6C1A4-8DC5-4EB6-9529-D2A86707B32F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
