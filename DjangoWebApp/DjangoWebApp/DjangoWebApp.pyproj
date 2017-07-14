@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DjangoWebApp\myApp\templates\index.html" />
+    <None Include="PythonPlayground - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
