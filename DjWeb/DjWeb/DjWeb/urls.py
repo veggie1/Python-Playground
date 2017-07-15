@@ -19,5 +19,5 @@ urlpatterns = [
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', my_views.hello, name = 'hello')
+    url(r'^hello/', my_views.hello, name = 'hello')
 ]
